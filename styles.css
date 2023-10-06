@@ -1,0 +1,117 @@
+body{
+    margin: 0 10%;
+}
+#dog{
+    width: 50px;
+    height: 50px;
+}
+.head_content {
+    display: flex;
+    align-items: flex-end;
+}
+
+.head_content h2 {
+    margin:  0;
+}
+
+.head_content h3 {
+    margin: 0;
+}
+.background_banner{
+    position: relative;
+    background-color: cyan;
+    padding-bottom: 60px;
+}
+.textBanner{
+    color: white;
+    top: 0;
+    position: absolute;
+    background-color: red;
+    margin-bottom: 25px;
+    bottom: 0;
+    border-radius: 15% 5%;
+}
+#hc2{
+    background-color: black;
+}
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 0px;
+    margin-left: auto;
+    border-bottom: 1px solid;
+    border-color: tomato;
+    
+}
+.nav li a{
+    list-style-type: none;
+    padding: 0px 10px;
+    color: white;
+    text-decoration: none;
+}
+#foot{
+    display: flex;
+    justify-content: space-between;
+    background-color: antiquewhite;
+}
+#container1{
+    width: 30%;
+}
+#container2{
+    width: 30%;
+    margin-left: 2%;
+}
+#container3{
+    margin-right: 10%;
+    width: 40%;
+}
+.textf1{
+    background-color: red;
+    width: 100%;
+    margin:0 2%;
+}
+h3{
+    margin-top: 0;
+    padding-right: 0px;
+    padding-top: 5px;
+}
+.mywebsite li{
+    margin-left: 10%;
+}
+.social{
+    width: 30px;
+    height: 30px;
+    mix-blend-mode: color-burn;
+    margin: 1%;
+}
+.icon_social{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.box{
+    width: 250px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.scontainer{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2%;
+}
+.sbox{
+    display: flex;
+    flex-wrap: wrap;
+}
+.sc1{
+    width: 70%;
+}
+.sc2{
+    width: 30%;
+}
+.nav a:hover{
+    border: 2px white solid;
+}
+
